@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28 oct</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar text-center" id="sidebar">
+            <img src="/images/my-profile-img.jpg" alt="" class="img-fluid">
+            <h4 class="text-white fw-bold">shelly thakur</h4>
+            <div class="icon-list text-white">
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-linkedin'></i>
+            </div>
+
+            <a href="#home"><i class='bx bx-home'></i>Home</a>
+            <a href="#about"><i class='bx bxs-user'></i>About</a>
+            <a href="#resume"><i class='bx bxs-file-doc'></i>Resume</a>
+            <a href="#portfolio"><i class='bx bx-photo-album'></i>Portfolio</a>
+            <a href="#services"><i class='bx bx-objects-horizontal-right'></i>Services</a>
+            <a href="#contact"><i class='bx bx-envelope'></i>Contact</a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                onclick="toggleSidebar()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="mainPage">
+            <section id="home">
+                <div class="row text-center name">
+                    <div class="col-md-12">
+                        <section id="home">
+                            <h1 class="display-3">Shelly Thakur</h1>
+                            <p class="lead">I'm a Developer</p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-4 justify-content-center">
+                        <div class="col-lg-4">
+                            <img src="/images/my-profile-img.jpg" class="img-fluid rounded-circle" alt="Shelly Thakur">
+                        </div>
+                        <div class="col-lg-8 content">
+                            <h2 class="section-title">Intern</h2>
+                            <p class="intro-text">
+                                "I'm Shelly Thakur, a passionate Computer Science graduate from Himachal Pradesh
+                                University, excited to kickstart my career as a web developer and contribute to
+                                innovative tech solutions."
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <p><b>→ DOB : </b>17 August 2003</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p> <b>→ Age:</b> 21</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p><b>→ Website: </b>www.abc.com</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p><b>→ Contact-No. :</b> 91+8988680507</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <p><b>→ Education:</b> Graduate</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p><b>→ Email:</b> Shellythakur507@gmail.com</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p><b>→ City:</b> Shimla, Himachal Pradesh, India</p>
+                                    </div>
+                                    <div class="info-item">
+                                        <p><b>→ Freelance:</b> Available</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="py-3">
+                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+                                adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
+                                itaque neque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="row text-center clients">
+
+                <div class="col-md-4">
+                    <h3><i class='bx bxl-css3'></i>20</h3>
+                    <h6>Projects</h6>
+                    <p>Adipisci atque cum quis aut</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class='bx bx-headphone'></i>1453</h3>
+                    <h6>Hours of Support</h6>
+                    <p>Aut commodi</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class='bx bx-user'></i>26</h3>
+                    <h6>Hard Workers</h6>
+                    <p>Rerum dolor</p>
+                </div>
+            </div>
+            <div class="row skills text-start mx-2">
+                <div class="col-md-12">
+                    <h1 class="heading">Skills</h1>
+                    <p>Basic knowledge of HTML/CSS. Actively learning JavaScript and Node.js.</p>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-6">
+                        <h6>HTML</h6>
+                        <div class="progress html-skill" role="progressbar" aria-label="HTML skill" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 100%">100%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>CSS</h6>
+                        <div class="progress css-skill" role="progressbar" aria-label="CSS skill" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 90%">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-6">
+                        <h6>JAVASCRIPT</h6>
+                        <div class="progress javascript-skill" role="progressbar" aria-label="JavaScript skill"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 0%">0%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>PHP</h6>
+                        <div class="progress php-skill" role="progressbar" aria-label="PHP skill" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 0%">0%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-6">
+                        <h6>WORDPRESS</h6>
+                        <div class="progress wordpress-skill" role="progressbar" aria-label="WordPress skill"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 0%">0%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>PHOTOSHOP</h6>
+                        <div class="progress photoshop-skill" role="progressbar" aria-label="Photoshop skill"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style="width: 0%">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="resume" class="resume-section">
+                <div class="container">
+                    <div class="row resume-intro">
+                        <div class="col-12">
+                            <h3 class="resume-heading">Resume</h3>
+                            <p class="resume-description">I am a passionate and driven <strong>Web Developer
+                                    Intern</strong> with a strong foundation in <strong>HTML</strong>,
+                                <strong>CSS</strong>, and <strong>JavaScript</strong>. Currently, I am enhancing my
+                                skills in <strong>Node.js</strong> and <strong>React</strong>, and I am eager to apply
+                                my knowledge to build dynamic, responsive websites and web applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row resume-content">
+                        <div class="col-md-6 resume-left">
+                            <h3 class="section-heading">Summary</h3>
+                            <h6 class="shelly">Shelly Thakur</h6>
+                            <p class="summary-text">Motivated Web Developer Intern with a strong foundation in
+                                <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and a keen
+                                interest in expanding skills in <strong>React</strong> and <strong>Node.js</strong>.
+                                Enthusiastic about building interactive, user-friendly websites and web applications.
+                                Always eager to learn new technologies and improve existing skills.
+                            </p>
+
+                            <h3 class="section-heading">Key Skills</h3>
+                            <ul class="skills-list">
+                                <li>HTML5 & CSS3</li>
+                                <li>Responsive Web Design</li>
+                                <li>JavaScript (Learning)</li>
+                            </ul>
+                            <h5 class="contact-heading">Contact Information</h5>
+                            <ul class="contact-list">
+                                <li><strong>Location:</strong> Shimla, Himachal Pradesh, India</li>
+                                <li><strong>Phone:</strong> +91 8988680507</li>
+                                <li><strong>Email:</strong> <a
+                                        href="mailto:shellythakur507@gmail.com">shellythakur507@gmail.com</a></li>
+                            </ul>
+
+                            <h3 class="section-heading">Education</h3>
+                            <h6 class="degree">Bachelor of Computer Applications (BCA)</h6>
+                            <p class="education-date"><strong>2021 - 2024</strong></p>
+                            <p class="education-institute">Himachal Pradesh University, Shimla, India</p>
+                            <p class="education-description">Currently pursuing a degree in Computer Applications,
+                                gaining proficiency in <strong>HTML</strong>, <strong>CSS</strong>,
+                                <strong>JavaScript</strong>, and learning frameworks like <strong>React</strong> and
+                                <strong>Node.js</strong> to build dynamic websites and web applications.
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 resume-right">
+                            <h3 class="section-heading">Professional Experience</h3>
+                            <h5 class="job-title">Web Developer Intern</h5>
+                            <h6 class="job-duration">2024 - Present</h6>
+                            <p class="company-name"><strong>Netgen IT Solution</strong></p>
+                            <p class="job-description">As a Web Developer Intern at <strong>Netgen IT Solutions Pvt
+                                    Ltd</strong>,
+                                I am gaining hands-on experience in both <strong>front-end</strong> and
+                                <strong>back-end</strong> web development. My primary focus is on <strong>HTML</strong>,
+                                <strong>CSS</strong>, <strong>JavaScript</strong>, and frameworks such as
+                                <strong>React</strong> and <strong>Node.js</strong>.
+                            </p>
+                            <p class="key-responsibilities-heading">Key Responsibilities include:</p>
+                            <ul class="responsibility-list">
+                                <li>Contributing to the development of responsive and interactive websites.</li>
+                                <li>Collaborating with senior developers to design user interfaces, code new features,
+                                    and debug existing applications.</li>
+                                <li>Working on web applications, focusing on improving performance, user experience, and
+                                    accessibility.</li>
+                            </ul>
+
+                            <h3 class="section-heading">Soft Skills</h3>
+                            <ul class="soft-skills-list">
+                                <li><strong>Communication:</strong> Strong ability to convey ideas and work
+                                    collaboratively with teams and clients.</li>
+                                <li><strong>Teamwork:</strong> Experience working in team-based projects and
+                                    contributing to collective success.</li>
+                                <li><strong>Leadership:</strong> Taking initiative in group tasks and helping guide
+                                    peers when needed.</li>
+                                <li><strong>Critical Thinking:</strong> Ability to solve problems creatively and adapt
+                                    to challenges in real-time.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="contact-details-section">
+                <div class="contact-header">
+                    <h1>Contact</h1>
+                    <p>If you have any questions about my work, assignments, or would like to collaborate, feel free to
+                        reach out! I'd be happy to help or chat about any projects you're interested in.</p>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item address-detail">
+                        <div class="icon-container">
+                            <i class="bx bx-location-plus contact-icon"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Address</h3>
+                            <p>Shimla, H.P (171005)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item phone-detail">
+                        <div class="icon-container">
+                            <i class="bx bxs-phone-call contact-icon"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Call Us</h3>
+                            <p>+91 8988680507</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item email-detail">
+                        <div class="icon-container">
+                            <i class="bx bx-envelope contact-icon"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email Us</h3>
+                            <p>shellythakur507@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-content">
+                    <h1>&copy; 2024 My Portfolio - All Rights Reserved</h1>
+                    <p>Designed by Shelly Thakur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
